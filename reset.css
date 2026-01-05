@@ -1,0 +1,119 @@
+/* Box sizing consistente */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove margens padrão */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ajustes base do HTML */
+html {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    scroll-behavior: smooth;
+}
+
+/* Corpo */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    font-family: inherit;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Remove estilos padrão de listas */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Remove sublinhado e herda cor */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Imagens e mídias responsivas */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* Botões e inputs neutros */
+button,
+input,
+textarea,
+select {
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/* Cursor correto */
+button,
+a {
+    cursor: pointer;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+/* Remove estilos padrão de tabelas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Remove aspas automáticas */
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+    content: "";
+}
+
+/* Remove estilos padrão de headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+/* Remove estilo padrão de detalhes */
+summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+/* Evita overflow estranho */
+html,
+body {
+    overflow-x: hidden;
+}
