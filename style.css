@@ -43,9 +43,31 @@ header {
 
 
     padding: 1.5rem 3rem;
-    background: transparent;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.2) 0%,
+            rgba(0, 0, 0, 0) 100%);
     /* importante */
 }
+
+
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li+li {
+    padding-left: 6rem;
+}
+
+nav ul li a {
+
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+
 
 #hero>* {
     position: relative;
