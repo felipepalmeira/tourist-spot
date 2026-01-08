@@ -7,7 +7,7 @@
 
 body {
     font-family: "Lexend", sans-serif;
-    color: azure;
+    color: #525252;
 }
 
 h1 {
@@ -28,10 +28,6 @@ p strong {
     font-weight: 700;
 }
 
-section {
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
 
 header {
     position: absolute;
@@ -54,12 +50,14 @@ header {
 }
 
 #hero h1 {
+    color: white;
     font-size: clamp(2.2rem, 6vw, 3.6rem);
     padding-bottom: 2rem;
 
 }
 
 #hero p {
+    color: white;
     max-width: 50vw;
     padding-bottom: 4rem;
 
@@ -103,4 +101,29 @@ header {
     padding: 1rem 2rem;
     background-color: #F6442C;
     text-decoration: none;
+}
+
+#trust-bar ul {
+    text-align: center;
+    background-color: #FBFBFB;
+}
+
+#trust-bar ul li {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 2rem;
+    width: 20rem;
+    height: 20rem;
+    margin: 6rem;
+
+}
+
+#trust-bar ul li img {
+
+    width: 10rem;
+    height: 10rem;
+
 }
