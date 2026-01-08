@@ -47,6 +47,12 @@ header {
     /* importante */
 }
 
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+
 #hero>* {
     position: relative;
     top: 56vh;
