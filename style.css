@@ -125,9 +125,16 @@ nav ul li a {
     text-decoration: none;
 }
 
+#trust-bar {
+    padding-top: 4rem;
+    height: 50vh;
+    width: 100vw;
+    background-color: aliceblue;
+}
+
 #trust-bar ul {
     text-align: center;
-    background-color: #FBFBFB;
+
 }
 
 #trust-bar ul li {
@@ -148,4 +155,11 @@ nav ul li a {
     width: 10rem;
     height: 10rem;
 
+}
+
+#pricing-header {
+    height: 50vh;
+    width: 100vw;
+    background-color: #F6442C;
+    color: white;
 }
