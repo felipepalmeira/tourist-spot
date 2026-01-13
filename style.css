@@ -163,3 +163,43 @@ nav ul li a {
     background-color: #F6442C;
     color: white;
 }
+
+.pricing-box {
+    display: inline-block;
+    width: 50%;
+}
+
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+
+.left img {
+    height: 50vh;
+    object-fit: cover;
+}
+
+
+.right {
+    float: right;
+    width: 50%;
+}
+
+
+.right h1 {
+    font-size: 4rem;
+    padding-top: 4rem;
+}
+
+.right-bike {
+    position: relative;
+    right: -11vw;
+    bottom: -3vh;
+}
+
+.right img {
+
+    height: 30vh;
+}
