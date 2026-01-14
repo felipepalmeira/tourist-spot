@@ -94,7 +94,7 @@ nav ul li a {
 }
 
 #hero {
-    min-height: 100vh;
+    min-height: 98.9vh;
     /* ocupa toda a viewport */
     background-image: url("./images/hero-bg.png");
     /* sua imagem */
@@ -102,7 +102,7 @@ nav ul li a {
     /* preenche toda a área */
     background-position: center;
     /* centraliza a imagem */
-    background-repeat: no-repeat;
+
 }
 
 #hero::before {
@@ -213,16 +213,20 @@ nav ul li a {
 }
 
 .bike-grid {
+    text-align: center;
     height: 100vh;
     background-color: #D9D9D9;
     padding: 4rem;
 }
 
 .bike-card {
-    height: 50vh;
+    display: inline-block;
+    vertical-align: top;
+    height: 70vh;
     width: 20vw;
     border: 1px solid #D9D9D9;
     border-radius: 10px;
     background-color: white;
     padding: 2rem;
+
 }
