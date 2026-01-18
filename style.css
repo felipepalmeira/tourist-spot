@@ -232,6 +232,15 @@ nav ul li a {
 
 }
 
+.bike-card button {
+    margin-left: 0;
+    margin-top: 2rem;
+    border: 1px solid #F6442C;
+    box-shadow: #525252;
+}
+
+
+
 .bike-card img {
     padding-top: 10vw;
 
@@ -241,10 +250,4 @@ nav ul li a {
 
 .bike-card+.bike-card {
     margin-left: 1rem;
-}
-
-.highlight {
-    border: 1px solid #F6442C;
-    box-shadow: #525252;
-
 }
