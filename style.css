@@ -220,6 +220,7 @@ nav ul li a {
 }
 
 .bike-card {
+    text-align: left;
     display: inline-block;
     vertical-align: top;
     height: 70vh;
@@ -228,5 +229,18 @@ nav ul li a {
     border-radius: 10px;
     background-color: white;
     padding: 2rem;
+
+}
+
+.bike-card img {
+    padding-top: 10vw;
+
+    width: 100%;
+    object-fit: cover;
+}
+
+.highlight {
+    border: 1px solid #F6442C;
+    box-shadow: #525252;
 
 }
