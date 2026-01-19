@@ -123,6 +123,7 @@ nav ul li a {
 
 .cta-primary {
     color: azure;
+
     margin-left: 4rem;
     padding: 1rem 2rem;
     background-color: #F6442C;
@@ -215,7 +216,7 @@ nav ul li a {
 .bike-grid {
     text-align: center;
     height: 100vh;
-    background-color: #D9D9D9;
+    background-color: #FBFBFB;
     padding: 4rem;
 }
 
@@ -223,7 +224,7 @@ nav ul li a {
     text-align: left;
     display: inline-block;
     vertical-align: top;
-    height: 70vh;
+    height: clamp(70vh, 80vh, 90vh);
     width: 30vw;
     border: 1px solid #D9D9D9;
     border-radius: 10px;
@@ -232,11 +233,12 @@ nav ul li a {
 
 }
 
-.bike-card button {
+.bike-card a {
+    display: inline-block;
     margin-left: 0;
     margin-top: 2rem;
     border: 1px solid #F6442C;
-    box-shadow: #525252;
+
 }
 
 
@@ -250,4 +252,24 @@ nav ul li a {
 
 .bike-card+.bike-card {
     margin-left: 1rem;
+}
+
+.highlight {
+    border: 1px solid #F6442C;
+    box-shadow: #525252;
+}
+
+small {
+    color: #F6442C;
+}
+
+.price {
+    color: #F6442C;
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+
+
+.pricing-button {
+    margin-top: 2rem;
 }
